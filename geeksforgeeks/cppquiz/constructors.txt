@@ -1,0 +1,497 @@
+https://www.geeksforgeeks.org/c-plus-plus-gq/constructors-gq/
+
+1. Which of the followings is/are automatically added to every class, if we do not write our own.
+A Copy Constructor
+B Assignment Operator
+C A constructor without any parameter
+D All of the above
+Answer: D 
+Explanation: 
+In C++, if we do not write our own, then compiler automatically creates a default constructor, a copy constructor and a assignment operator for every class.
+
+2. When a copy constructor may be called?
+A When an object of the class is returned by value.
+B When an object of the class is passed (to a function) by value as an argument.
+C When an object is constructed based on another object of the same class
+D When compiler generates a temporary object.
+E All of the above
+Answer: E
+Explanation: 
+According to the rule of constructor
+
+3. Output of following program?
+#include<iostream>
+using namespace std;
+class Point {
+    Point() { cout << "Constructor called"; }
+};
+ 
+int main()
+{
+   Point t1;
+   return 0;
+}
+
+A Compiler Error
+B Runtime Error
+C Constructor called
+Answer: A
+
+Explanation: 
+By default all members of a class are private. Since no access specifier is there for Point(), it becomes private and it is called outside the class when t1 is constructed in main.
+
+4. #include<iostream>
+using namespace std;
+class Point {
+public:
+    Point() { cout << "Constructor called"; }
+};
+ 
+int main()
+{
+   Point t1, *t2;
+   return 0;
+}
+A Compiler Error
+B Constructor called
+  Constructor called
+C Constructor called
+
+Answer: C
+Explanation: 
+Only one object t1 is constructed here. t2 is just a pointer variable, not an object
+
+5. Output of following program?
+#include<iostream>
+using namespace std;
+ 
+class Point {
+public:
+    Point() { cout << "Normal Constructor called\n"; }
+    Point(const Point &t) { cout << "Copy constructor called\n"; }
+};
+ 
+int main()
+{
+   Point *t1, *t2;
+   t1 = new Point();
+   t2 = new Point(*t1);
+   Point t3 = *t1;
+   Point t4;
+   t4 = t3;
+   return 0;
+}
+A Normal Constructor called
+Normal Constructor called
+Normal Constructor called
+Copy Constructor called
+Copy Constructor called
+Normal Constructor called
+Copy Constructor called
+
+B Normal Constructor called
+Copy Constructor called
+Copy Constructor called
+Normal Constructor called
+Copy Constructor called
+
+C Normal Constructor called
+Copy Constructor called
+Copy Constructor called
+Normal Constructor called
+
+Answer: C
+
+Explanation: 
+See following comments for explanation:
+Point *t1, *t2;   // No constructor call
+t1 = new Point(10, 15);  // Normal constructor call
+t2 = new Point(*t1);   // Copy constructor call 
+Point t3 = *t1;  // Copy Constructor call
+Point t4;   // Normal Constructor call
+t4 = t3;   // Assignment operator call 
+
+6. #include<iostream>
+using namespace std;
+ 
+class X 
+{
+public:
+    int x;
+};
+ 
+int main()
+{
+    X a = {10};
+    X b = a;
+    cout << a.x << " " << b.x;
+    return 0;
+}
+
+A Compiler Error
+B 10 followed by Garbage Value
+C 10 10
+D 10 0
+Answer: C
+
+Explanation: 
+The following may look like an error, but it works fine. X a = {10}; Like structures, class objects can be initialized. The line "X b = a;" calls copy constructor and is same as "X b(a);". Please note that, if we don't write our own copy constructor, then compiler creates a default copy constructor which assigns data members one object to other object.
+
+7. What is the output of following program?
+#include <iostream>
+using namespace std;
+ 
+class Point
+{
+    int x, y;
+public:
+   Point(const Point &p) { x = p.x; y = p.y; }
+   int getX() { return x; }
+   int getY() { return y; }
+};
+ 
+int main()
+{
+    Point p1;
+    Point p2 = p1;
+    cout << "x = " << p2.getX() << " y = " << p2.getY();
+    return 0;
+}
+
+A x = garbage value y = garbage value
+B x = 0 y = 0
+C Compiler Error
+
+Answer: C
+
+Explanation: 
+There is compiler error in line "Point p1;". The class Point doesn't have a constructor without any parameter. If we write any constructor, then compiler doesn't create the default constructor. It is not true other way, i.e., if we write a default or parameterized constructor, then compiler creates a copy constructor. See the next question.
+
+8. #include <iostream>
+using namespace std;
+ 
+class Point
+{
+    int x, y;
+public:
+   Point(int i = 0, int j = 0) { x = i; y = j; }
+   int getX() { return x; }
+   int getY() { return y; }
+};
+ 
+int main()
+{
+    Point p1;
+    Point p2 = p1;
+    cout << "x = " << p2.getX() << " y = " << p2.getY();
+    return 0;
+}
+
+A Compiler Error
+B x = 0 y = 0
+C x = garbage value y = garbage value
+
+Answer: B
+Explanation: 
+Compiler creates a copy constructor if we don't write our own. Compiler writes it even if we have written other constructors in class. So the above program works fine. Since we have default arguments, the values assigned to x and y are 0 and 0.
+
+9. Predict the output of following program.
+#include<iostream>
+#include<stdlib.h>
+using namespace std;
+ 
+class Test
+{
+public:
+   Test()
+   { cout << "Constructor called"; }
+};
+ 
+int main()
+{
+    Test *t = (Test *) malloc(sizeof(Test));
+    return 0;
+}
+
+A Constructor called
+B Empty
+C Compiler Error
+D Runtime error
+
+Answer: B
+
+Explanation: 
+Unlike new, malloc() doesn't call constructor (See this) If we replace malloc() with new, the constructor is called, see this.
+
+10. #include <iostream>
+using namespace std;
+ 
+class Test
+{
+public:
+      Test() { cout << "Hello from Test() "; }
+} a;
+ 
+int main()
+{
+    cout << "Main Started ";
+    return 0;
+}
+
+A Main Started
+B Main Started Hello from Test()
+C Hello from Test() Main Started
+D Compiler Error: Global objects are not allowed
+
+Answer: C
+
+Explanation: 
+Output is
+Hello from Test() Main Started
+There is a global object 'a' which is constructed before the main functions starts, so the constructor for a is called first, then main()' execution begins.
+
+11. Question 11
+Output?
+#include<iostream>
+#include<string.h>
+using namespace std;
+ 
+class String
+{
+    char *str;
+public:
+     String(const char *s);
+     void change(int index, char c) { str[index] = c; }
+     char *get() { return str; }
+};
+ 
+String::String(const char *s)
+{
+    int l = strlen(s);
+    str = new char[l+1];
+    strcpy(str, s);
+}
+ 
+int main()
+{
+   String s1("geeksQuiz");
+   String s2 = s1;
+   s1.change(0, 'G');
+   cout << s1.get() << " ";
+   cout << s2.get();
+}
+
+A GeeksQuiz geeksQuiz
+B.GeeksQuiz GeeksQuiz
+C geeksQuiz geeksQuiz
+D geeksQuiz GeeksQuiz
+
+Answer: B
+
+Explanation: 
+Since there is no copy constructor, the compiler creates a copy constructor. The compiler created copy constructor does shallow copy in line " String s2 = s1;" So str pointers of both s1 and s2 point to the same location. There must be a user defined copy constructor in classes with pointers ot dynamic memory allocation.
+
+12.  Predict the output of following program.
+#include<iostream>
+using namespace std;
+class Point {
+    int x;
+public:
+    Point(int x) { this->x = x; }
+    Point(const Point p) { x = p.x;}
+    int getX() { return x; }
+};
+ 
+int main()
+{
+   Point p1(10);
+   Point p2 = p1;
+   cout << p2.getX();
+   return 0;
+}
+A 10
+B.Compiler Error: p must be passed by reference
+C Garbage value
+D None of the above
+
+Answer: B
+
+Objects must be passed by reference in copy constructors. Compiler checks for this and produces compiler error if not passed by reference. The following program compiles fine and produces output as 10.
+#include <iostream >
+using namespace std;
+class Point {
+    int x;
+public:
+    Point(int x) { this->x = x; }
+    Point(const Point &p) { x = p.x;}
+    int getX() { return x; }
+};
+
+int main()
+{
+   Point p1(10);
+   Point p2 = p1;
+   cout << p2.getX();
+   return 0;
+}
+The reason is simple, if we don't pass by reference, then argument p1 will be copied to p. So there will be a copy constructor call to call the copy constructor, which is not possible.
+
+13. We must use initializer list in a constructor when
+A There is a reference variable in class
+B There is a constant variable in class
+C There is an object of another class. And the other class doesn't have default constructor.
+D All of the above
+
+Answer: D
+
+Explanation: 
+According to the rule of constructor
+
+14. Which of the following is true about constructors. 
+1) They cannot be virtual.
+2) They cannot be private. 
+3) They are automatically called by new operator.
+A All 1, 2, and 3
+B Only 1 and 3
+C Only 1 and 2
+D Only 2 and 3
+
+Answer : B
+
+Explanation: 
+1) True: Virtual constructors don't make sense, it is meaningless to the C++ compiler to create an object polymorphically. 2) False: Constructors can be private, for example, we make copy constructors private when we don't want to create copyable objects. The reason for not making copyable object could be to avoid shallow copy. 3) True: Constructors are automatically called by new operator, we can in-fact pass parameters to constructors.
+
+15. #include<iostream>
+using namespace std;
+  
+class Test
+{
+public:
+  Test();
+};
+  
+Test::Test()  {
+    cout << " Constructor Called. ";
+}
+  
+void fun() {
+  static Test t1;
+}
+  
+int main() {
+    cout << " Before fun() called. ";
+    fun();
+    fun();
+    cout << " After fun() called. ";  
+    return 0;
+}
+
+A Constructor Called. Before fun() called. After fun() called.
+B Before fun() called. Constructor Called. Constructor Called. After fun() called.
+C Before fun() called. Constructor Called. After fun() called.
+D Constructor Called. Constructor Called. After fun() called.Before fun() called
+
+Answer: C
+
+Explanation: 
+Note that t is static in fun(), so constructor is called only once.
+
+16. Predict the output of following program?
+#include <iostream>
+using namespace std;
+class Test
+{
+private:
+    int x;
+public:
+    Test(int i)
+    {
+        x = i;
+        cout << "Called" << endl;
+    }
+};
+ 
+int main()
+{
+    Test t(20);
+    t = 30; // conversion constructor is called here.
+    return 0;
+}
+
+A Compiler Error
+B Called
+  Called
+C Called
+
+Answer: B
+
+Explanation: 
+If a class has a constructor which can be called with a single argument, then this constructor becomes conversion constructor because such a constructor allows automatic conversion to the class being constructed. A conversion constructor can be called anywhere when the type of single argument is assigned to the object. The output of the given program is
+Called
+Called
+
+17. #include<iostream>
+using namespace std;
+ 
+class Test
+{
+public:
+   Test(Test &t) { }
+   Test()        { }
+};
+ 
+Test fun()
+{
+    cout << "fun() Called";
+    Test t;
+    return t;
+}
+ 
+int main()
+{
+    Test t1;
+    Test t2 = fun();
+    return 0;
+}
+
+A fun() Called
+B Empty Output
+C Compiler Error: Because copy constructor argument is non-const
+
+Answer: C
+
+Explanation:
+copy constructor argument should be const in C++
+
+19. Constructors have _____ return type.
+A void
+B char
+C int
+D no
+
+Answer: D
+
+Explanation: 
+Constructors have no return type. For more information on constructors Refer:Constructors in C++ Option (D) is correct.
+
+20. Implicit return type of a class constructor is:
+A not of class type itself
+B class type itself
+C a destructor of class type
+D a destructor not of class type
+
+Answer: B
+
+Explanation: 
+Implicit return type of a class constructor is class type itself. For more information Refer:C++ Classes and Objects Option (B) is correct.
+
+21. What is the right way to declare a copy constructor of a class if the name of the class is MyClass?
+A MyClass (constant MyClass *arg)
+B MyClass (constant MyClass &arg)
+C MyClass (MyClass arg)
+D MyClass (MyClass *arg)
+
+Answer: B
+
+Explanation: 
+In this question, language is not specified so there can be multiple options correct. MyClass (constant MyClass &arg) // copy constructor in C++ MyClass (MyClass arg) // copy constructor in Java Refer: 1) Copy Constructor in C++ 2)Copy Constructor in Java

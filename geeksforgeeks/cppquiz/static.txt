@@ -1,0 +1,178 @@
+https://www.geeksforgeeks.org/c-plus-plus-gq/static-keyword-gq/
+
+1.Predict the output of following C++ program.
+#include <iostream>
+using namespace std;
+ 
+class Test
+{
+    static int x;
+public:
+    Test() { x++; }
+    static int getX() {return x;}
+};
+ 
+int Test::x = 0;
+ 
+int main()
+{
+    cout << Test::getX() << " ";
+    Test t[5];
+    cout << Test::getX();
+}
+
+A 0 0
+B 5 5
+C 0 5
+D Compiler Error
+
+Answer : C
+
+Explanation: 
+Static functions can be called without any object. So the call "Test::getX()" is fine. Since x is initialized as 0, the first call to getX() returns 0. Note the statement x++ in constructor. When an array of 5 objects is created, the constructor is called 5 times. So x is incremented to 5 before the next call to getX().
+
+2.
+#include <iostream>
+using namespace std;
+ 
+class Player
+{
+private:
+    int id;
+    static int next_id;
+public:
+    int getID() { return id; }
+    Player()  {  id = next_id++; }
+};
+int Player::next_id = 1;
+ 
+int main()
+{
+  Player p1;
+  Player p2;
+  Player p3;
+  cout << p1.getID() << " ";
+  cout << p2.getID() << " ";
+  cout << p3.getID();
+  return 0;
+}
+
+A Compiler Error
+B 1 2 3
+C 1 1 1
+D 3 3 3
+
+Answer: B
+
+Explanation: 
+If a member variable is declared static, all objects of that class have access to a single instance of that variable. Static variables are sometimes called class variables, class fields, or class-wide fields because they don’t belong to a specific object; they belong to the class. In the above code, static variable next_id is used to assign a unique id to all objects.
+
+3. Which of the following is true?
+A Static methods cannot be overloaded.
+B Static data members can only be accessed by static methods.
+C Non-static data members can be accessed by static methods.
+D Static methods can only access static members (data and methods)
+
+Answer:D
+
+4. Predict the output of following C++ program.
+#include <iostream>
+using namespace std;
+ 
+class A
+{
+private:
+    int x;
+public:
+    A(int _x)  {  x = _x; }
+    int get()  { return x; }
+};
+ 
+class B
+{
+    static A a;
+public:
+   static int get()
+   {  return a.get(); }
+};
+ 
+int main(void)
+{
+    B b;
+    cout << b.get();
+    return 0;
+}
+
+A 0
+B Linker Error: Undefined reference B::a
+C Linker Error: Cannot access static a
+D Linker Error: multiple functions with same name get()
+
+Answer: B
+
+Explanation: 
+There is a compiler error because static member a is not defined in B. To fix the error, we need to explicitly define a. 
+
+5. #include<iostream>
+using namespace std;
+ 
+class Test
+{
+private:
+    static int count;
+public:
+    Test& fun(); 
+};
+ 
+int Test::count = 0;
+ 
+Test& Test::fun()
+{
+    Test::count++;
+    cout << Test::count << " ";
+    return *this;
+}
+ 
+int main()
+{
+    Test t;
+    t.fun().fun().fun().fun();
+    return 0;
+}
+
+A Compiler Error
+B 4 4 4 4
+C 1 1 1 1
+D 1 2 3 4
+
+Answer: D
+
+Explanation: 
+Static members are accessible in non-static functions, so no problem with accessing count in fun(). Also, note that fun() returns the same object by reference.
+
+6. Output of following C++ program?
+#include <iostream>
+class Test
+{
+public:
+    void fun();
+};
+static void Test::fun()   
+{
+    std::cout<<"fun() is static\n";
+}
+int main()
+{
+    Test::fun();   
+    return 0;
+}
+
+A fun() is static
+B Empty Screen
+C Compiler Error
+
+Answer:C
+
+Explanation: 
+The above program fails in compilation and shows below error messages. [Error] cannot declare member function 'void Test::fun()' to have static linkage [-fpermissive] In function 'int main()': [Error] cannot call member function 'void Test::fun()' without object If the static function is to be defined outside the class then static keyword must be present in function declaration only not in the definition outside the class. Following program is now correct. 1 #include class Test { public: static void fun(); }; void Test::fun() { std::cout<<"fun() is static\n"; } int main() { Test::fun(); return 0; }[/sourcecode]
+

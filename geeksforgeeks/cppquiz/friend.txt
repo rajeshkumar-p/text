@@ -1,0 +1,104 @@
+https://www.geeksforgeeks.org/c-plus-plus-gq/friend-function-and-class-gq/
+
+1. Predict the output of following program.
+#include <iostream>
+using namespace std;
+class A
+{
+protected:
+    int x;
+public:
+    A() {x = 0;}
+    friend void show();
+};
+ 
+class B: public A
+{
+public:
+    B() : y (0) {}
+private:
+    int y;
+};
+ 
+void show()
+{
+    A a;
+    B b;
+    cout << "The default value of A::x = " << a.x << " ";
+    cout << "The default value of B::y = " << b.y;
+}
+
+A Compiler Error in show() because x is protected in class A
+B Compiler Error in show() because y is private in class b
+C The default value of A::x = 0 The default value of B::y = 0
+D Compiler Dependent
+
+Answer: B
+
+Explanation: 
+Please note that show() is a friend of class A, so there should not be any compiler error in accessing any member of A in show(). Class B is inherited from A, the important point to note here is friendship is not inherited. So show() doesn't become a friend of B and therefore can't access private members of B.
+
+2. Predict the output the of following program.
+#include <iostream>
+using namespace std;
+ 
+class B;
+class A {
+    int a;
+public:
+    A():a(0) { }
+    void show(A& x, B& y);
+};
+ 
+class B {
+private:
+    int b;
+public:
+    B():b(0) { }
+    friend void A::show(A& x, B& y);
+};
+ 
+void A::show(A& x, B& y) {
+    x.a = 10;
+    cout << "A::a=" << x.a << " B::b=" << y.b;
+}
+ 
+int main() {
+    A a;
+    B b;
+    a.show(a,b);
+    return 0;
+}
+
+A Compiler Error
+B A::a=10 B::b=0
+C A::a=0 B::b=0
+
+Answer: B
+
+Explanation: 
+This is simple program where a function of class A is declared as friend of class B. Since show() is friend, it can access private data members of B.
+
+3. If a function is friend of a class, which one of the following is wrong?
+A A function can only be declared a friend by a class itself.
+B Friend functions are not members of a class, they are associated with it.
+C Friend functions are members of a class.
+D It can have access to all members of the class, even private ones.
+
+Answer: Explanation: 
+Friend of the class can be member of some other class but Friend functions are not the members of a particular class. Option (C) is correct.
+
+4. Which one of the following is correct, when a class grants friend status to another class?
+A The member functions of the class generating friendship can access the members of the friend class.
+B All member functions of the class granted friendship have unrestricted access to the members of the class granting the friendship.
+C Class friendship is reciprocal to each other.
+D There is no such concept.
+
+Answer: B
+
+Explanation: 
+When a class grants friend status to another class then all member functions of the class granted friendship have unrestricted access to the members of the class granting the friendship.
+The member functions of the class generating friendship can access the members of the friend class.Incorrect statement.
+Class friendship is not reciprocal to each other.
+
+
