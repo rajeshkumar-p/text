@@ -1,9 +1,21 @@
 Basics
 
 https://www.geeksforgeeks.org/operating-system-difference-multitasking-multithreading-multiprocessing/
+https://www.geeksforgeeks.org/what-happens-when-we-turn-on-computer/
+
+Process Management
+https://www.geeksforgeeks.org/gate-notes-operating-system-process-management-introduction/
+https://www.geeksforgeeks.org/memory-layout-of-c-program/
+https://en.wikipedia.org/wiki/Process_control_block
+https://en.wikipedia.org/wiki/Thread_control_block
+https://www.geeksforgeeks.org/operating-systems-states-process/
+https://www.geeksforgeeks.org/operating-system-process-table-process-control-block-pcb/
+https://www.geeksforgeeks.org/gate-notes-operating-system-scheduler/
 
 
 Threads
 https://www.geeksforgeeks.org/operarting-system-thread/
 https://www.geeksforgeeks.org/multithreading-c-2/
 https://www.geeksforgeeks.org/operating-system-user-level-thread-vs-kernel-level-thread/
+
+
