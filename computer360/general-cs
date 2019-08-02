@@ -1,0 +1,24 @@
+
+
+1) 32 bit vs 64 bit
+
+2) endianess - little endian vs big endian
+
+3) decimal to binary
+
+4) binary to decimal
+
+5) 1's complement and 2's complement
+
+6) memory organization
+
+7) half adder, full adder
+- half adder
+https://www.geeksforgeeks.org/digital-electronics-half-adder/
+- full adder
+https://www.geeksforgeeks.org/full-adder-digital-electronics/
+- implementation of full adder using half adder
+- implementation of full adder using NAND gates 
+- implementation of full adder using NOR gates
+
+8) 

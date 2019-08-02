@@ -1,0 +1,61 @@
+30 Topics
+=========
+
+1) Network Layers - I
+
+2) Network Layers - II
+
+2) Network Devices
+
+3) IP - I
+
+4) Telnet, SSH, SCP, FTP, SMTP, HTTP & HTTPS
+https://www.geeksforgeeks.org/protocols-application-layer/
+https://www.geeksforgeeks.org/difference-between-telnet-and-ftp/
+https://practice.geeksforgeeks.org/problems/http-vs-https
+
+4) ARP
+
+5) DHCP
+https://www.geeksforgeeks.org/how-dhcp-server-dynamically-assigns-ip-address-to-a-host/
+https://www.geeksforgeeks.org/computer-network-dhcp-relay-agent/
+
+6) ICMP : Ping, TraceRoute 
+
+7) HTTP
+
+8) DNS
+
+9) TCP & UDP
+
+10) TCP  - TCP Dump, NetStat
+
+11) UDP - TCP Dump, NetStat
+
+12) Flow control
+
+13) Congestion control
+
+14) Switching
+
+15) Routing - RIP
+
+16) Routing - OSPF
+
+17) Network topologies
+
+18) Sockets 
+
+19) TCP chat program
+
+20) UPD chat program
+
+21) Circuit Switching & Packet Switching
+
+22) Error correction and detection
+
+23) Ethernet frame
+
+24) Transmission media
+
+https://www.geeksforgeeks.org/commonly-asked-computer-networks-interview-questions-set-1/

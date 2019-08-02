@@ -1,0 +1,75 @@
+1) c programming language
+
+2) data types revisit
+
+3) arrays
+
+4) c program compilation - behind the scenes
+
+5) decision making
+
+6) control statements - I
+
+7) control statements - II
+
+8) functions I
+
+9) storage class
+
+10) functions II
+
+11) structures I
+
+12) structures II
+
+13) struct hack, member alignment, padding and data packing
+
+14) union 
+
+15) string handling I 
+
+16) string handling II
+
+17) pointers and references I
+https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/
+
+18) pointers II - null, void, dangling and memoryleak
+https://www.geeksforgeeks.org/void-pointer-c-cpp/
+https://stackoverflow.com/questions/20967868/should-the-compiler-warn-on-pointer-arithmetic-with-a-void-pointer 
+
+19) pointers and arrays
+https://www.geeksforgeeks.org/pointer-vs-array-in-c/
+https://www.geeksforgeeks.org/difference-pointer-array-c/
+
+10) pointers and structures
+
+21) pointers and functions
+
+21) memory management I
+
+22) memory management II
+
+23) macros and preprocessors I
+
+24) macros and preprocessors I
+
+25) bitwise operators in c
+
+26) review I
+
+27) review II
+
+28) review III
+
+29) review IV
+
+Interview questions :
+https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-1/
+https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-2/
+ 
+operators
+https://www.geeksforgeeks.org/can-use-operator-floating-point-numbers/
+https://www.geeksforgeeks.org/sizeof-operator-c/
+https://www.geeksforgeeks.org/g-fact-9/
+https://www.geeksforgeeks.org/anything-written-sizeof-never-executed-c/
+ 

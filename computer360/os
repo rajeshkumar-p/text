@@ -1,0 +1,44 @@
+process intro
+
+process image/memory layout of a c program
+https://www.geeksforgeeks.org/memory-layout-of-c-program/
+
+interrupts
+https://www.geeksforgeeks.org/computer-organization-why-need-interrupt/
+
+memory management : swapping
+
+contiguous memory allocation
+
+paging
+
+segmentation
+
+virtual memory
+
+demand paging
+
+copy on write
+
+page replacement 
+
+allocation of frames
+
+thrashing
+
+process
+
+ipc
+
+pipes and named pipes
+
+shared memory
+
+message queues
+
+semaphores
+
+signals
+
+memory mapping
+
