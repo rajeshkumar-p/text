@@ -1,6 +1,9 @@
 
 
 primary key, foreign key, unique key
+https://www.geeksforgeeks.org/primary-key-vs-unique-key/
+https://www.geeksforgeeks.org/difference-between-primary-and-candidate-key/
+https://www.geeksforgeeks.org/dbms-keys-candidate-super-primary-alternate-and-foreign/
 
 data definition commands
 

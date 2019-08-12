@@ -28,6 +28,9 @@ thrashing
 
 process
 
+process synchronization
+https://www.geeksforgeeks.org/process-synchronization-set-1/
+
 ipc
 
 pipes and named pipes
@@ -36,9 +39,20 @@ shared memory
 
 message queues
 
+mutex
+
 semaphores
+
 
 signals
 
 memory mapping
 
+cpu scheduling
+https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/
+https://www.geeksforgeeks.org/program-priority-scheduling-set-1/
+https://www.geeksforgeeks.org/starvation-aging-operating-systems/
+https://www.geeksforgeeks.org/operating-system-selfish-round-robin-scheduling/
+https://www.geeksforgeeks.org/operating-system-multilevel-queue-scheduling/
+https://www.geeksforgeeks.org/multilevel-feedback-queue-scheduling/
+https://www.geeksforgeeks.org/convoy-effect-operating-systems/
