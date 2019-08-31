@@ -7,10 +7,14 @@ expression parsing
 
 greedy algorithm
 
-divide and conquer algorithm
+divide and conquer algorithm I  - binary search
+
+sorting - bubble sort, selection sort and insertion sort
+
+divide and conquer algorithm II - merge sort
+
+divide and conquer algorithm II - quick sort
+
+heap sort
 
 dynamic programming
-
-merge sort
-
-quick sort

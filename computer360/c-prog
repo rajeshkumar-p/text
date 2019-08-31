@@ -35,7 +35,9 @@ https://www.geeksforgeeks.org/double-pointer-pointer-pointer-c/
 
 18) pointers II - null, void, dangling and memoryleak
 https://www.geeksforgeeks.org/void-pointer-c-cpp/
-https://stackoverflow.com/questions/20967868/should-the-compiler-warn-on-pointer-arithmetic-with-a-void-pointer 
+https://www.geeksforgeeks.org/dangling-void-null-wild-pointers/
+https://stackoverflow.com/questions/20967868/should-the-compiler-warn-on-pointer-arithmetic-with-a-void-pointer
+https://www.geeksforgeeks.org/what-are-wild-pointers-how-can-we-avoid/ 
 
 19) pointers and arrays
 https://www.geeksforgeeks.org/pointer-vs-array-in-c/
@@ -48,6 +50,7 @@ https://www.geeksforgeeks.org/difference-pointer-array-c/
 21) memory management I
 
 22) memory management II
+    * memory leak and how tto address it    
 
 23) macros and preprocessors I
 
