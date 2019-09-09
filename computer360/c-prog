@@ -1,6 +1,8 @@
 1) c programming language
 
 2) data types revisit
+https://www.geeksforgeeks.org/data-types-in-c/
+https://www.geeksforgeeks.org/bool-in-c/
 
 3) arrays
 
@@ -23,8 +25,12 @@
 12) structures II
 
 13) struct hack, member alignment, padding and data packing
+https://www.geeksforgeeks.org/structure-member-alignment-padding-and-data-packing/
 
-14) union 
+14) union
+https://www.geeksforgeeks.org/union-c/
+https://www.geeksforgeeks.org/difference-structure-union-c/
+https://www.geeksforgeeks.org/g-fact-38-anonymous-union-and-structure/ 
 
 15) string handling I 
 
@@ -48,6 +54,8 @@ https://www.geeksforgeeks.org/difference-pointer-array-c/
 21) pointers and functions
 
 21) memory management I
+    malloc, calloc, realloc, free
+
 
 22) memory management II
     * memory leak and how tto address it    

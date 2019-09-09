@@ -28,6 +28,8 @@ https://www.geeksforgeeks.org/this-pointer-in-c/
    * access specifiers
 https://www.geeksforgeeks.org/can-access-private-data-members-class-without-using-member-friend-function/
    * function overloading and inheritence
+   * object slicing
+https://www.geeksforgeeks.org/object-slicing-in-c/
 
 7) inheritence III
 
@@ -85,3 +87,4 @@ https://www.geeksforgeeks.org/extern-c-in-c/
 28) inheritence comparison study
     * inheritence in C++ vs Java
     * default virtual behavior in C++ vs Java
+

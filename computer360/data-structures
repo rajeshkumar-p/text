@@ -1,11 +1,15 @@
 30 topics
 =========
 
-1) arrays - linear search, binary search
+1) arrays - linear search, binary search, tri search
+https://www.geeksforgeeks.org/ternary-search/
 
 2) arrays - bubble sort, insertion sort, selection sort
 
 3) arrays - jump search, interpolation search
+https://www.geeksforgeeks.org/jump-search/
+https://www.geeksforgeeks.org/interpolation-search/
+https://www.tutorialspoint.com/data_structures_algorithms/interpolation_search_algorithm.htm
 
 3) stack - I
 

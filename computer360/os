@@ -44,6 +44,10 @@ mutex
 semaphores
 
 signals
+https://www.geeksforgeeks.org/signals-c-language/
+https://www.geeksforgeeks.org/program-error-signals/
+https://www.geeksforgeeks.org/write-a-c-program-that-doesnt-terminate-when-ctrlc-is-pressed/
+https://www.geeksforgeeks.org/c-program-not-suspend-ctrlz-pressed/
 
 memory mapping
 
