@@ -17,9 +17,11 @@ https://www.geeksforgeeks.org/when-do-we-pass-arguments-by-reference-or-pointer/
    * this pointer
 https://www.geeksforgeeks.org/this-pointer-in-c/
 
-5) inheritence introduction 
+5) inheritence introduction
+https://www.geeksforgeeks.org/g-fact-4/ 
    * single inheritence
    * multiple inheritence
+https://www.geeksforgeeks.org/multiple-inheritance-in-c/
    * multilevel inheritence
    * hierarchical inheritence
    * hybrid inheritence 
@@ -32,6 +34,8 @@ https://www.geeksforgeeks.org/can-access-private-data-members-class-without-usin
 https://www.geeksforgeeks.org/object-slicing-in-c/
 
 7) inheritence III
+   * virtual functions
+   * VTABLE and VPTR 
 
 8) friend functions and friend class I
    * friend class
@@ -88,3 +92,6 @@ https://www.geeksforgeeks.org/extern-c-in-c/
     * inheritence in C++ vs Java
     * default virtual behavior in C++ vs Java
 
+
+interview questions
+https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/

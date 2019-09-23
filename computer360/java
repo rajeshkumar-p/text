@@ -1,14 +1,38 @@
 1) java, why java, JDK, JRE, JVM
+https://www.geeksforgeeks.org/java-how-to-start-learning-java/
+Why is Java called the ‘Platform Independent Programming Language’?
+https://www.geeksforgeeks.org/java-platform-independent/
+https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-1/
+https://www.geeksforgeeks.org/what-is-the-role-of-java-in-the-it-industry/
+https://www.geeksforgeeks.org/setting-environment-java/
+https://www.geeksforgeeks.org/what-are-the-main-differences-between-the-java-platform-and-other-platforms/
+https://www.geeksforgeeks.org/valid-variants-main-java/
 
 2) java first program
+https://www.geeksforgeeks.org/understanding-public-static-void-mainstring-args-in-java/
+Why the main method is static in java?
+What happens if you remove static modifier from the main method?
+https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-2/
+https://www.geeksforgeeks.org/run-java-class-file-different-directory/
 
 3) java and oop
+How are parameters passed in Java
+https://www.geeksforgeeks.org/g-fact-45/
+How are Java objects stored in memory?
+https://www.geeksforgeeks.org/g-fact-46/
+Shadowing of static functions on Java
+https://www.geeksforgeeks.org/g-fact-63/
 
-2) arrays in java
+4) arrays in java
+https://www.geeksforgeeks.org/g-fact-65/
+https://www.geeksforgeeks.org/iterating-arrays-java/
+https://www.geeksforgeeks.org/multidimensional-arrays-in-java/
+https://www.geeksforgeeks.org/array-class-in-java/
 
 3) streams in java
 
 4) important keyword in java
+https://www.geeksforgeeks.org/g-fact-24-finalfinally-and-finalize-in-java/
 
 2) java packages
 
@@ -32,6 +56,8 @@
 8) inheritence in java - II
    * access specifiers
    * function overloading and inheritence
+   * polymorphism
+https://www.geeksforgeeks.org/polymorphism-in-java/
 
 9) constructors in java
 
@@ -51,119 +77,23 @@
 
 16) socket programming
 
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
-17)12) jdbc
-
-13) serialization
-
-14) applets
-
-15) remote method invocation
-
-16) socket programming
-
 17)
 
 interview questions :
 https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-1/
 https://www.geeksforgeeks.org/commonly-asked-java-programming-interview-questions-set-2/
 https://www.geeksforgeeks.org/interview-questions-for-java-professionals/
+
+18) java vs C++
+What are C++ features missing in Java?
+How is inheritance in C++  different from Java?
+https://www.geeksforgeeks.org/c-features-missing-java/
+
+Latest trends in Java
+https://www.geeksforgeeks.org/difference-between-java-and-javascript/
+https://www.geeksforgeeks.org/difference-between-groovy-and-java/
+https://www.geeksforgeeks.org/difference-between-javascript-and-php/
+
+Spring
+https://www.geeksforgeeks.org/introduction-to-spring-framework/
+https://www.geeksforgeeks.org/introduction-to-spring-boot/
