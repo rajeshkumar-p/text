@@ -1,0 +1,69 @@
+UNIT I
+RELATIONAL DATABASES
+Purpose of Database System – Views of data – Data Models – Database System
+Architecture –
+Introduction to relational databases – Relational Model – Keys – Relational
+Algebra – SQL
+fundamentals – Advanced SQL features – Embedded SQL– Dynamic SQL
+
+UNIT II
+DATABASE DESIGN
+Entity-Relationship model – E-R Diagrams – Enhanced-ER Model – ER-to-Relational
+Mapping –
+Functional Dependencies – Non-loss Decomposition – First, Second, Third Normal
+Forms,
+Dependency Preservation – Boyce/Codd Normal Form – Multi-valued Dependencies and
+Fourth
+Normal Form – Join Dependencies and Fifth Normal Form
+
+UNIT III
+TRANSACTIONS
+Transaction Concepts – ACID Properties – Schedules – Serializability –
+Concurrency Control – Need
+for Concurrency – Locking Protocols – Two Phase Locking – Deadlock – Transaction
+Recovery -
+Save Points – Isolation Levels – SQL Facilities for Concurrency and Recovery.
+
+UNIT IV
+IMPLEMENTATION TECHNIQUES
+RAID – File Organization – Organization of Records in Files – Indexing and
+Hashing –Ordered Indices
+– B+ tree Index Files – B tree Index Files – Static Hashing – Dynamic Hashing –
+Query Processing
+Overview – Algorithms for SELECT and JOIN operations – Query optimization using
+Heuristics and
+Cost Estimation.
+
+UNIT V
+ADVANCED TOPICS
+Distributed Databases: Architecture, Data Storage, Transaction Processing –
+Object-based
+Databases: Object Database Concepts, Object-Relational features, ODMG Object
+Model, ODL, OQL -
+XML Databases: XML Hierarchical Model, DTD, XML Schema, XQuery – Information
+Retrieval: IR
+Concepts, Retrieval Models, Queries in IR systems.
+
+
+=======================
+
+
+ To understand data definitions and data manipulation commands
+ To learn the use of nested and join queries
+ To understand functions, procedures and procedural extensions of data bases
+ To be familiar with the use of a front end tool
+ To understand design and implementation of typical database applications
+1. Data Definition Commands, Data Manipulation Commands for inserting, deleting,
+updating and
+retrieving Tables and Transaction Control statements
+2. Database Querying – Simple queries, Nested queries, Sub queries and Joins
+3. Views, Sequences, Synonyms
+4. Database Programming: Implicit and Explicit Cursors
+5. Procedures and Functions
+6. Triggers
+7. Exception Handling
+8. Database Design using ER modeling, normalization and Implementation for any
+application
+9. Database Connectivity with Front End Tools
+10. Case Study using real life database applications
+

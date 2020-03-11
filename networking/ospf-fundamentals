@@ -1,0 +1,79 @@
+OSPF Fundamentals
+=================
+
+- Link state rouing protocol
+- Shortest Path First (SPF) Algorithm
+- Triggered updates : updates are triggered only if there is a change in learned
+  routing table
+
+Note : In distance vector routing protocols (RIP) routing entries are exchanged
+at a period of time
+
+- Network Layer Protocol - Protocol Number 89
+- Uses 224.0.0.5 for normal communication
+       224.0.0.6 for update to designate router(DR)/Backup designate router(BDR)
+
+OSPF Terms
+==========
+
+Router Id : Highest active IP address present on the router
+   - First highesh loopback address is considered
+   - If no loop back address configured, highest active IP address on the
+     interface of the router is considered
+
+Router Priority : 8 Bit value assigned to router operating OSFP
+   - Higher the value, higher the priority
+   - Used to elect DR and BDR in a network  
+
+Designated Router(DR) : 
+   - Elected to minimize no of adjaceny formig
+   - DR distributes LSA's to all other routers
+   - DR is elected in a broadcast network, to which all other routers share
+     their DBD
+   - In a broadcast network, router requests update to DR and DR will respond
+     to the request
+
+Backup Designated Router(BDR) :
+   - Backup to DR
+   - When DR goes down, BDR becomes DR and performs its functions
+ 
+
+DR and BDR election criteria :
+   - Router having the highest priority will be declared as DR
+   - If there is a tie in the router priority, then router Id will be considered
+   - How BDR selected ?
+
+OSPF Messages
+=============
+
+Hello Message :
+   - Keep alive messages used for neighbor discovery/recovery
+   - Exchanged in every 10 seconds (configurable ? )
+   - Hello message information includes
+        - Router Id
+        - Hello/dead Interval
+        - Area I'd
+        - Router Priority
+        - DR and BDR IP Address
+        - Authentication Data
+
+DBD (Database Description) :
+   - OSPF routes of the router
+   - Contains topology of an AS
+
+Link state request (LSR)
+   - When router receives DBD, it compares it with own DBD
+   - If the DBD has more information than its own DBD, then it send LSR request
+     to neighbor
+
+Link state update (LSU)
+   - When router receives LSR, it responds with LSU message containing details
+     requested
+
+Link state acknowledgement
+   - Provides reliability to the link state exchange
+   - Sent as acknowledgement for receiving LSU
+
+Link state advertisement (LSA)
+   - OSPF data packet that contains link state routing information
+   - Shared only with routers to which adjaceny has formed

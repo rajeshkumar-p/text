@@ -1,8 +1,19 @@
 1) procedure vs oop
+https://www.geeksforgeeks.org/differences-between-procedural-and-object-oriented-programming/
+   overloading 
+https://github.com/rajeshkumar-p/workarea/blob/master/cpp-prog/funcoverloading/func_overloading.cpp
+https://github.com/rajeshkumar-p/workarea/blob/master/cpp-prog/funcoverloading/func_overloading_not_allowed.txt
+   first cpp program
+https://www.geeksforgeeks.org/writing-first-c-program-hello-world-example/
 
-2) classes and objects I 
+2) classes and objects I
+
 
 3) classes and objects II
+   constructor
+
+   destructor
+
 
 4) c++ stream class I
 
@@ -49,6 +60,7 @@ https://www.geeksforgeeks.org/can-access-private-data-members-class-without-usin
 10) operator overloading II
 
 11) polymorphism I
+https://www.geeksforgeeks.org/g-fact-30-function-overloading-and-float-in-c/
 
 12) polymorphism II
 
@@ -60,7 +72,11 @@ https://www.geeksforgeeks.org/can-access-private-data-members-class-without-usin
 
 16) class templates II
 
-17) name spaces
+17) namespaces
+https://www.geeksforgeeks.org/namespace-in-c/
+https://www.geeksforgeeks.org/namespace-in-c-set-2-extending-namespace-and-unnamed-namespace/
+https://www.geeksforgeeks.org/namespace-c-set-3-creating-header-nesting-aliasing-accessing/
+https://www.tutorialspoint.com/difference-between-namespace-in-chash-and-packages-in-java
 
 18) standard template
 
@@ -92,6 +108,7 @@ https://www.geeksforgeeks.org/extern-c-in-c/
     * inheritence in C++ vs Java
     * default virtual behavior in C++ vs Java
 
+29) static
 
 interview questions
 https://www.geeksforgeeks.org/commonly-asked-c-interview-questions-set-1/

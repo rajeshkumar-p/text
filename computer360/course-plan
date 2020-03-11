@@ -3,36 +3,44 @@ Course Plan
 
 Total 360 sessions
 
-Track 1 - Weekends
-- 6 months = 24 weeks = 48 days
-- 45 days total class
-- Per day 8 session
-- 45 Mins one session
+Track 1 - 36 days 
+- 5 months = 4 * 8 = 40 days 
+- 30 days total class
+- Per day 12 session
+- 30 Mins one session
 
 Daily Schedule
+==============
 9:30  to 10:15
-10:30 to 11:15
-11:30 to 12:15
-12:30 to 01:15
+10:15 to 11:00
+11:00 to 11:45
+
+12:00 to 12:45
+12:45 to 01:30
 
 02:00 to 02:45
-03:00 to 03:45
-04:00 to 04:45
-05:00 to 05:45
+02:45 to 03:30
+03:30 to 04:15
 
+04:30 to 05:15
+05:15 to 06:00
 
 Syllabus Coverage
 
-1)  C Prog            - 30
-2)  OOPS              - 10
-3)  C++ Programming   - 30
-4)  Java              - 30
-5)  Python            - 30
-6)  Operating System  - 30
-7)  Linux             - 30
-8)  DBMS              - 30
-9)  Computer Networks - 30
-10) Data Structures   - 30
-11) Algorithm         - 30
-12) Computer Science  - 30
-13) Latest trends     - 20
+  Python                        - 40
+  C Prog                        - 30
+  Computer Science              - 30
+
+  C++                           - 20
+  OOPS & Design Patterns        - 10 
+  Data Structures using C       - 30
+  Algorithm using C             - 20
+  DBMS                          - 20
+
+  Java                          - 40
+  Operating System              - 30
+  System Programming & Linux    - 30
+  
+  Computer Networks             - 30
+  Software Engineering & Testing- 10 
+  Latest Technologies           - 20

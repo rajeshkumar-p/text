@@ -1,8 +1,18 @@
 general computer science
 
-1) 32 bit vs 64 bit
+1) computer fundamentals - memory
+   cache memory
+   primary memory
+   secondary memory
+   memory hierarchy
+   RAM : SRAM and DRAM
+   ROM : EPROM
 
-2) endianess - little endian vs big endian
+2) computer fundamentals - cpu
+   
+3) 32 bit vs 64 bit
+
+4) endianess - little endian vs big endian
 
 3) decimal to binary and binary to decimal
 
@@ -28,4 +38,6 @@ https://www.geeksforgeeks.org/full-adder-digital-electronics/
 - implementation of full adder using NAND gates 
 - implementation of full adder using NOR gates
 
-8) 
+8) GDB
+https://jvns.ca/blog/2018/04/28/debugging-a-segfault-on-linux/
+http://www.brendangregg.com/blog/2016-08-09/gdb-example-ncurses.html 

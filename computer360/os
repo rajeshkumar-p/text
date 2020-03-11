@@ -1,7 +1,45 @@
-process intro
+operating system properties
+- multitasking
+- multiprogramming
+- interactivity
+- real time systems
+- distributed environment
+- spooling
 
+operating system services
+- program execution
+- i/o operation
+- file system manipulation
+- communication
+- error handling
+- resource mgmt
+- protection
+
+process intro
+- process
+- program
+- process life cycle
+- pcb
 process image/memory layout of a c program
 https://www.geeksforgeeks.org/memory-layout-of-c-program/
+
+process scheduling
+- process scheduling queues
+- two state process model
+- schedulers
+- long term scheduler
+- short term scheduler
+- medium term scheduler
+- comparison among scheduler
+- context switch
+
+scheduling algorithms
+- fcfs
+- sjf
+- priority based scheduling
+- shortest remaining first
+- round robin scheduling
+- multilevel queues scheduling
 
 interrupts
 https://www.geeksforgeeks.org/computer-organization-why-need-interrupt/
@@ -30,6 +68,7 @@ process
 
 process synchronization
 https://www.geeksforgeeks.org/process-synchronization-set-1/
+https://www.geeksforgeeks.org/process-synchronization-set-2/
 
 ipc
 
@@ -42,6 +81,8 @@ message queues
 mutex
 
 semaphores
+https://www.geeksforgeeks.org/semaphores-in-process-synchronization/
+https://www.geeksforgeeks.org/use-posix-semaphores-c/
 
 signals
 https://www.geeksforgeeks.org/signals-c-language/
@@ -59,3 +100,8 @@ https://www.geeksforgeeks.org/operating-system-selfish-round-robin-scheduling/
 https://www.geeksforgeeks.org/operating-system-multilevel-queue-scheduling/
 https://www.geeksforgeeks.org/multilevel-feedback-queue-scheduling/
 https://www.geeksforgeeks.org/convoy-effect-operating-systems/
+
+rpc
+http://etutorials.org/Linux+systems/how+linux+works/Chapter+6+Network+Services/6.6+Remote+Procedure+Call+RPC/
+https://www.linux.org/threads/tcp-ip-service-remote-procedure-call-rpc.9312/
+https://www.oreilly.com/library/view/linux-network-administrators/1565924002/ch12s04.html

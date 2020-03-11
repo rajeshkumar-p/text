@@ -1,4 +1,44 @@
 process
+process control block
+process management system calls
+
+
+process
 https://www.geeksforgeeks.org/fork-system-call/
+https://www.geeksforgeeks.org/fork-bomb/
 https://www.geeksforgeeks.org/zombie-and-orphan-processes-in-c/
 https://www.geeksforgeeks.org/zombie-processes-prevention/
+
+files
+- overview of unix file system
+- data structures used by kernel to represent file
+- links : hard link & soft link
+- system calls
+
+threads
+- process & threads
+- benefits of multithreading
+- native function for thread creating in linux
+- posix thread APIs
+
+threads synchroniztion
+ 
+
+interprocess communication - I
+- pipes and named pipes/fifo
+- message queues
+
+interporcess commumication - II
+- signals
+- shared memory
+
+socket programming
+- intro to sockets
+- types of sockets
+- client server model
+- connection oriented vs connectionless service
+- socket address structure
+- socket programming API
+- client server pseudo code
+
+socket programming : II

@@ -1,13 +1,30 @@
 30 Topics
 =========
 
+1) Networks Introduction
+
 1) Network Layers - I
+https://www.geeksforgeeks.org/basics-computer-networking/
+https://www.geeksforgeeks.org/introduction-to-basic-networking-terminology/
+https://www.geeksforgeeks.org/types-of-network-topology/
+https://www.geeksforgeeks.org/transmission-modes-computer-networks/
+https://www.geeksforgeeks.org/types-of-area-networks-lan-man-and-wan/
+
+Reference
+https://www.geeksforgeeks.org/difference-between-ring-topology-and-mesh-topology/
 
 2) Network Layers - II
+https://www.geeksforgeeks.org/working-of-different-layers-in-computer-network/
 
-2) Network Devices
+
+2) Transmission media and Network Devices
+https://www.geeksforgeeks.org/types-transmission-media/
+https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/
 
 3) IP - I
+https://www.geeksforgeeks.org/classful-vs-classless-addressing/
+https://www.geeksforgeeks.org/c-program-find-ip-address-subnet-mask-default-gateway/
+
 
 4) Telnet, SSH, SCP, FTP, SMTP, HTTP & HTTPS
 https://www.geeksforgeeks.org/protocols-application-layer/
@@ -15,6 +32,9 @@ https://www.geeksforgeeks.org/difference-between-telnet-and-ftp/
 https://practice.geeksforgeeks.org/problems/http-vs-https
 
 4) ARP
+https://www.geeksforgeeks.org/how-address-resolution-protocol-arp-works/
+https://www.geeksforgeeks.org/ip-command-in-linux-with-examples/
+https://www.geeksforgeeks.org/arp-command-in-linux-with-examples/
 
 5) DHCP
 https://www.geeksforgeeks.org/how-dhcp-server-dynamically-assigns-ip-address-to-a-host/
@@ -56,7 +76,26 @@ https://www.geeksforgeeks.org/why-does-dns-use-udp-and-not-tcp/
 22) Error correction and detection
 
 23) Ethernet frame
+https://www.geeksforgeeks.org/introduction-of-mac-address-in-computer-network/
 
 24) Transmission media
 
+
+
 https://www.geeksforgeeks.org/commonly-asked-computer-networks-interview-questions-set-1/
+
+Difference
+https://www.geeksforgeeks.org/difference-between-serial-and-parallel-transmission/
+https://www.geeksforgeeks.org/difference-between-simplex-half-duplex-and-full-duplex-transmission-modes/
+
+https://www.geeksforgeeks.org/difference-between-star-and-mesh-topology/
+https://www.geeksforgeeks.org/difference-between-ring-topology-and-mesh-topology/
+https://www.geeksforgeeks.org/difference-between-star-and-ring-topology/
+https://www.geeksforgeeks.org/difference-between-grid-computing-and-cluster-computing/
+https://www.geeksforgeeks.org/difference-between-cloud-computing-and-grid-computing/
+https://www.geeksforgeeks.org/difference-between-soft-computing-and-hard-computing/
+
+https://www.geeksforgeeks.org/difference-between-mac-address-and-ip-address/
+
+Advanced
+https://www.geeksforgeeks.org/basic-network-attacks-in-computer-network/

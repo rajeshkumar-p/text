@@ -1,0 +1,54 @@
+Neelam Agarwal Basic Core Java
+
+- JDK & JVM
+- Java properties
+- primitive data type, local variable, instance variable, class variable
+- different memory area in JAVA
+- design principle : loose coupling and high cohesion
+- reference variable
+- private constructor & static object generation function - loose coupling
+- singleton class/singleton pattern
+- how/way to delete a singleton object ?
+
+Major JVM components
+- Class Loader
+- Bytecode Verifier
+- Execution Engine - Interpretor, JIT
+- Garbage Collector - Lower priority, invoked only when program needs more
+  memory
+
+JIT - frequently called code, would be compiled and cached and used whenever
+needed, main piece of code is still interpreted, used to overcome slowness of
+JAVA due to interpretation
+
+
+Polymorphism - function overloading & function overriding
+Inheritence - is-a 
+- regular employee is a employee
+- apple is fruit
+- car is a vehicle
+
+Composition/Aggregation - has-a
+- car has a engine
+- company has a employee
+- department has a student
+
+3 associations - is-a, has-a, use
+
+3 types of inheritence 
+- single (single parent) 
+- multiple inheritence (multiple parent)
+- multilevel inheritence (single parent)
+- in broader term, it is of two types only, single & multiple inheritence
+  based on number of parents
+- properties of parents will be shared by its descendants
+- java doesnt support multiple inheritence, directly, but to someextend can
+  achieve through interfaces
+
+Explain Inheritence and composition using
+- Bank Account - SA, DA, RD, FD
+- Customer
+
+
+Packages in Java
+Exception Handling
