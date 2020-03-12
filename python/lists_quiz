@@ -1,0 +1,23 @@
+What is the output of the following code :
+L = ['a','b','c','d']
+print "".join(L)
+
+A) Error
+B) None
+C) abcd
+D) [‘a’,’b’,’c’,’d’]
+
+Answer : C
+Explanation: 
+“” depicts a null string and the join function combines the elements of the list
+into a string.
+
+
+Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?
+(A) [3, 4, 5, 20, 5, 25, 1, 3]
+(B) [1, 3, 3, 4, 5, 5, 20, 25]
+(C) [3, 5, 20, 5, 25, 1, 3]
+(D) [1, 3, 4, 5, 20, 5, 25]
+
+Answer: (C)
+Explanation: pop(i) removes the ith index element from the list

@@ -1,0 +1,84 @@
+What is the output of the following program :
+def myfunc(a): 
+    a = a + 2
+        a = a * 2
+    return a 
+  
+print myfunc(2) 
+
+(A) 8
+(B) 16
+(C) Indentation Error
+(D) Runtime Error
+
+Answer: (C)
+Explanation: Python creates blocks of code based on the indentation of the code.
+Thus, new indent defines a new scope.
+
+Given a function that does not return any value, what value is shown when
+executed at the shell?
+
+A) int
+B) bool
+C) void
+D) None
+
+Answer : D
+Explanation :
+Python explicitly defines the None object that is returned if no value is
+specified.
+
+What is the output of the following segment :
+chr(ord('A'))
+
+(A) A
+(B) B
+(C) a
+(D) Error
+
+Answer: (A)
+Explanation: ord() function converts a character into its ASCII notation and
+chr() converts the ASCII to character.
+
+What is the output of the following program :
+
+y = 8
+z = lambda x : x * y 
+print z(6) 
+
+(A) 48
+(B) 14
+(C) 64
+(D) None of the above
+
+Answer: (A)
+Explanation: lambdas are concise functions and thus, result = 6 * 8
+
+Which of the following is the use of id() function in python?
+(A) Id returns the identity of the object
+(B) Every object doesn’t have a unique id
+(C) All of the mentioned
+(D) None of the mentioned
+
+
+Answer: (A)
+Explanation: Each object in Python has a unique id. The id() function returns
+the object’s id.
+
+Which function overloads the >> operator?
+(A) more()
+(B) gt()
+(C) ge()
+(D) None of the above
+
+Answer: (D)
+Explanation: rshift() overloads the >> operator
+
+Which operator is overloaded by the or() function?
+(A) ||
+(B) |
+(C) //
+(D) /
+
+Answer: (B)
+Explanation: or() function overloads the bitwise OR operator

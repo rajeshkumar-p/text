@@ -1,0 +1,9 @@
+time.time() returns ________
+(A) the current time
+(B) the current time in milliseconds
+(C) the current time in milliseconds since midnight
+(D) the current time in milliseconds since midnight, January 1, 1970
+(E) the current time in milliseconds since midnight, January 1, 1970 GMT (the
+Unix time)
+
+Answer: (E)

@@ -1,0 +1,65 @@
+What is the output of the following program :
+
+print "Hello World"[::-1]
+  
+A) dlroW olleH
+B) Hello Worl
+C) d
+D) Error
+
+Answer : A
+
+Explanation :
+[::] depicts extended slicing in Python and [::-1] returns the reverse of the
+string.
+
+Given a string s = “Welcome”, which of the following code is incorrect?
+
+A) print s[0]
+B) print s.lower()
+C) s[1] = ‘r’
+D) print s.strip()
+
+Answer : C
+
+Explanation: 
+strings are immutable in Python
+
+What is the output of the following program :
+print 'abcefd'.replace('cd', '12') 
+
+(A) ab1ef2
+(B) abcefd
+(C) ab1efd
+(D) ab12ed2
+
+Answer: (B)
+Explanation: The first substring is not present in the given string and hence
+nothing is replaced.
+
+What is the output of the following program :
+print 'abef'.partition('cd') 
+
+(A) (‘abef’)
+(B) (‘abef’, ‘cd’, ”)
+(C) (‘abef’, ”, ”)
+(D) Error
+
+Answer: (C)
+Explanation: The separator is not present in the string hence the second and the
+third elements of the tuple are null strings.
+
+What is the output of the following program :
+print 'cd'.partition('cd') 
+
+(A) (‘cd’)
+(B) (”)
+(C) (‘cd’, ”, ”)
+(D) (”, ‘cd’, ”)
+
+Answer: (D)
+Explanation: The entire string has been passed as the separator hence the first
+and the last item of the tuple returned are null strings.
+
+
+
