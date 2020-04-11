@@ -1,3 +1,6 @@
+Predict the output of the following Python programs. These question set will
+make you conversant with List Concepts in Python programming language.
+
 What is the output of the following code :
 L = ['a','b','c','d']
 print "".join(L)
@@ -12,7 +15,6 @@ Explanation:
 “” depicts a null string and the join function combines the elements of the list
 into a string.
 
-
 Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?
 (A) [3, 4, 5, 20, 5, 25, 1, 3]
 (B) [1, 3, 3, 4, 5, 5, 20, 25]
@@ -21,3 +23,124 @@ Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?
 
 Answer: (C)
 Explanation: pop(i) removes the ith index element from the list
+
+What is the output of the following?
+mylist = ['computer', 'science'] 
+for i in mylist: 
+    i.upper() 
+print(mylist) 
+
+1) [‘COMPUTER’, ‘SCIENCE’].
+2) [‘computer’, ‘science’].
+3) [None, None].
+4) Unexpected
+
+Output: [‘computer’, ‘science’].
+Explanation: The function upper() does not modify a string in place, it returns
+a new string which isn’t being stored anywhere.
+
+What is the output of the following?
+mylist = ['computer', 'science'] 
+for i in mylist: 
+    mylist.append(i.upper()) 
+print(mylist) 
+
+1) [‘COMPUTER’, ‘SCIENCE’].
+2) [‘computer’, ‘science’, ‘COMPUTER’, ‘SCIENCE’].
+3) [None, None].
+4) None of these
+
+Output: None of these
+Explanation:The loop does not terminate as new elements are being added to the
+list in each iteration.
+
+
+Program 1
+    
+    list1 = ['physics', 'chemistry', 1997, 2000] 
+    list2 = [1, 2, 3, 4, 5, 6, 7 ] 
+       
+    print "list1[0]: ", list1[0]        #statement 1 
+    print "list1[0]: ", list1[-2]       #statement 2 
+    print "list1[-2]: ", list1[1:]      #statement 3 
+    print "list2[1:5]: ", list2[1:5]    #statement 4 
+
+    Output:
+
+    list1[0]:  physics
+    list1[0]:  1997
+    list1[-2]:  ['chemistry', 1997, 2000]
+    list2[1:5]:  [2, 3, 4, 5]
+
+    Explanation:
+    To access values in lists, we use the square brackets for slicing along with
+the index or indices to obtain required value available at that index.For N
+items in a List MAX value of index will be N-1.
+    Statement 1 : This will print item located at index 0 in Output.
+    Statement 2 : This will print item located at index -2 i.e.second last
+element in Output.
+    Statement 3 : This will print items located from index 1 to end of the list.
+    Statement 4 : This will print items located from index 1 to 4 of the list.
+    
+
+Program 2
+    
+    list1 = ['physics', 'chemistry', 1997, 2000] 
+    print "list1[1][1]: ", list1[1][1] #statement 1 
+    print "list1[1][-1]: ", list1[1][-1] #statement 2 
+
+    Output:
+
+    list1[1][1]:  h
+    list1[1][-1]:  y
+
+    Explanation:
+    In python we can slice a list but we can also slice a element within list if
+it is a string. The declaration list[x][y] will mean that ‘x’ is the index of
+element within a list and ‘y’ is the index of entity within that string.
+
+Program 3
+    
+    list1 = [1998, 2002, 1997, 2000] 
+    list2 = [2014, 2016, 1996, 2009] 
+    print "list1 + list 2 = : ", list1 + list2   #statement 1 
+    print "list1 * 2 = : ", list1 * 2  #statement 2 
+
+    Output:
+    list1 + list 2 = :  [1998, 2002, 1997, 2000, 2014, 2016, 1996, 2009]
+    list1 * 2 = :  [1998, 2002, 1997, 2000, 1998, 2002, 1997, 2000]
+
+    Explanation:
+    When addition(+) operator uses list as its operands then the two lists will
+get concatenated. And when a list id multiplied with a constant k>=0 then the
+same list is appended k times in the original list.
+    
+Program 4
+    
+    list1 = range(100, 110) #statement 1 
+    print "index of element 105 is : ", list1.index(105)  #statement 2 
+
+    Output:
+    index of element 105 is :  5
+    
+    Explanation:
+    Statement 1 : will genetrate numbers from 100 to 110 and appent all these
+numbers in the list.
+    Statement 2 : will give the index value of 105 in the list list1.
+    
+Program 5
+    
+    list1 = [1, 2, 3, 4, 5] 
+    list2 = list1 
+    list2[0] = 0; 
+      
+    print "list1= : ", list1 #statement 2 
+
+    Output:
+    list1= :  [0, 2, 3, 4, 5]
+
+    Explanation:
+    In this problem, we have provided a reference to the list1 with another name
+list2 but these two lists are same which have two references(list1 and list2).
+So any alteration with list2 will affect the original list.
+

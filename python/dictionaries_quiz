@@ -81,7 +81,6 @@ python. If there are same keys in a dictionay, then the value assigned mostly
 recently is assigned to the that key.
 
 4) What is the output of the following program?
-
 temp = dict() 
 temp['key1'] = {'key1' : 44, 'key2' : 566} 
 temp['key2'] = [1, 2, 3, 4] 
@@ -99,7 +98,6 @@ even another dictionary holding key value pairs.
 Note: This code can be executed only in python versions above 3
 
 5) What is the output of the following program?
-
 temp = {'GFG' : 1, 
         'Facebook' : 2, 
         'Google' : 3
@@ -116,3 +114,80 @@ Ans. (d)
 Explanation: Dictionaries are unordered. So any key value pairs can be added at
 any location within a dictionary. Any of the output may come.
 Note: This code can be executed only in python versions above 3.
+
+
+Which of these about a dictionary is false?
+a) The values of a dictionary can be accessed using keys
+b) The keys of a dictionary can be accessed using values
+c) Dictionaries may or may not be ordered
+d) None of the above
+
+Ans.(b)
+Explanation: The values of a dictionary can be accessed using keys but the keys
+of a dictionary can’t be accessed using values.
+
+4. What will be the output?
+test = {1:'A', 2:'B', 3:'C'} 
+del test[1] 
+test[1] = 'D'
+del test[2] 
+print(len(test)) 
+
+Options:
+1) 2
+2) 1
+3) 0
+4) Error
+
+Output:
+1. 2
+Explanation: After the key-value pair of 1:’A’ is deleted, the key-value pair of
+1:’D’ is added.
+
+5. What will be the output?
+a ={} 
+a['a']= 1
+a['b']=[2, 3, 4] 
+print(a) 
+
+Options:
+1) {‘b’: [2], ‘a’: 1}
+2) {‘b’: [2, 3, 4], ‘a’: 1}
+3) {‘b’: [2], ‘a’: [3]}
+4) Error
+
+Output:
+2. {‘b’: [2, 3, 4], ‘a’: 1}
+
+Explanation: Mutable members can be used as the values of the dictionary but
+they cannot be used as the keys of the dictionary.
+
+What will be the output?
+dictionary ={1:"geek", 2:"for", 3:"geeks"} 
+del dictionary 
+
+Options:
+    del deletes the entire dictionary
+    del doesn’t exist for the dictionary
+    del deletes the keys in the dictionary
+    del doesn’t exist for dictionary
+
+Output:
+1. del deletes the entire dictionary
+
+Explanation: del deletes the entire dictionary and any further attempt to access
+it will throw an error.
+
+What will be the output?
+dictionary = {"geek":10, "for":45, "geeks": 90} 
+print("geek" in dictionary) 
+
+Options:
+    10
+    False
+    True
+    Error
+
+Output:
+3. True
+Explanation: in is used to check the key exist in dictionary or not.

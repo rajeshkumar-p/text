@@ -8,6 +8,7 @@
 - python anatomy
 - whitespace and comments
 - using print
+- using input and raw_input
 - expressions and statements
 - variables
 - blocks and scopes
@@ -86,3 +87,8 @@
 - working with JSON data
 - parsing and processing HTML
 - manipulating XML
+
+21) thread
+
+
+

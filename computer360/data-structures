@@ -1,30 +1,66 @@
 30 topics
 =========
+https://practice.geeksforgeeks.org/courses/Placement-100
 
 1) arrays - linear search, binary search, tri search
 https://www.geeksforgeeks.org/ternary-search/
 
-2) arrays - bubble sort, insertion sort, selection sort
+2) arrays 
+- bubble sort 
+- insertion sort 
+- selection sort
 
-3) arrays - jump search, interpolation search
+3) arays - radix sort, counting sort
+
+4) arrays - jump search, interpolation search
 https://www.geeksforgeeks.org/jump-search/
 https://www.geeksforgeeks.org/interpolation-search/
 https://www.tutorialspoint.com/data_structures_algorithms/interpolation_search_algorithm.htm
 
-3) stack - I
+5) queue - I
+- implementation using array
+- implementation using linked list
+- implementation using stack
 
-4) queue - I
+6) Dequeue:
+- implementations using Array
+- implementation using Linked List
+- Insertion, Deletion, Updation, Reversal
+- Rotation
 
-5) stack - II
-https://www.geeksforgeeks.org/computer-organization-stack-based-cpu-organization/ 
+7) stack - II
+https://www.geeksforgeeks.org/computer-organization-stack-based-cpu-organization/
+- Next greater element
+- Implementing two stacks in single array
+- Implementing K stacks in single array
+- Stack with getMin() operation in O(1) time
+-  
 
 6) queue - II
 
 7) expression evaluation
 
 8) singly linked list - I
+ - Drawback of Arrays
+ - Introduction to Linked List and Implementation
+ - Traversal, Insertion and Deletion
 
 9) singly linked list - II
+ - Reversal
+ - Sorting
+ - Finding Middle
+ - Loop detection and Removal
+ - LRU cached design
+
+3) stack - I
+- stack using array
+- stack using linked list
+
+4) stack - II
+- expression evaluation
+- infix, postfix, prefix expression
+- infix to postfix
+- evaluation of postfix
 
 10) stack and queue using linked list
 
@@ -33,14 +69,21 @@ https://www.geeksforgeeks.org/computer-organization-stack-based-cpu-organization
 12) circular linked list
 
 13) tree
+ - basics
+ - Traversals: preorder, postorder, inorder, level order
+ - Height
 
-14) binary tree - I 
-
+14) binary search tree - I
+ - Implementation
+ - Search
+ - Insertion
+ - Deletion
+ 
 15) binary tree - II
-
-18) hash tables - I
-
-19) hash tables - II
+- binary to double linked list
+- printing left, right, bottom and top views of a tree
+- binary tree from inorder and postorder traversal
+- 
 
 20) AVL tree
 
@@ -49,8 +92,18 @@ https://www.geeksforgeeks.org/computer-organization-stack-based-cpu-organization
 22) max/min heap
 
 23) heap sort
+ - Implementation
+ - Operations
+ - Heap Sort
+
 
 24) hashing
+https://www.geeksforgeeks.org/hashing-set-1-introduction/
+https://www.geeksforgeeks.org/hashing-set-2-separate-chaining/
+https://www.geeksforgeeks.org/hashing-set-3-open-addressing/
+https://www.geeksforgeeks.org/applications-of-hashing/?ref=rp
+https://www.geeksforgeeks.org/practice-problems-on-hashing/?ref=rp
+https://www.geeksforgeeks.org/hashing-in-java/?ref=rp
 
 25) generalized (list, tree)
 
@@ -58,9 +111,14 @@ https://www.geeksforgeeks.org/computer-organization-stack-based-cpu-organization
 
 27) splay tree
 
-28) review, discussion & feedback 
+28) strings 
+- pattern matching algorithm
+- rabin karp algorithm
+- KMP algorithm 
 
-29) review, discussion & feedback
+29) union and intersection of sorted arrays
+
+searching two pointer approach 
 
 30) review, discussion & feedback
 

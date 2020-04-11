@@ -62,4 +62,37 @@ Explanation: The entire string has been passed as the separator hence the first
 and the last item of the tuple returned are null strings.
 
 
+What is the output of the following program?
+line = "I'll come by then."
+eline = "" 
+for i in line: 
+    eline += chr(ord(i)+3) 
+print(eline)     
 
+a) L*oo frph e| wkhq1
+b) L*oo#frph#e|#wkhq1
+c) l*oo@frph@e|$wkhq1
+d) O*oo#Frph#E|#wKhq1
+
+Ans. (b)
+Explanation: This piece of code ciphers the plain text. Each character is moved
+to its 3rd next character by increasing the ascii value. ‘I’ becomes ‘L’, thus
+option (c) and (d) are ruled out. ‘ ‘ has ascii value of 32, thus it’ll become
+35(‘#’), thus option (a) is ruled out as, ‘ ‘ can not remain to be ‘ ‘ in the
+ciphered text.
+
+5) What is the output of the following program?
+line =  "What will have so will"
+L = line.split('a') 
+for i in L: 
+    print(i, end=' ') 
+
+a) [‘What’, ‘will’, ‘have’, ‘so’, ‘will’]
+b) Wh t will h ve so will
+c) What will have so will
+d) [‘Wh’, ‘t will h’, ‘ve so will’]
+
+Ans. (b)
+Explanation: split() will use ‘a’ as the delimiter. It’ll create parition at
+‘a’, thus split() return an array L, which is in [‘Wh’, ‘t will h’, ‘ve so
+will’]. For loop will print the elements of the list.
