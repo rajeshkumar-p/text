@@ -1,3 +1,88 @@
-1) why python ?
+1) python introduction 
+- python language features 
+- python installation 
+- IDE installation (pycharm)
+- Hello Word Program
 
+2) python basics - I & II
+- python anatomy
+- whitespace and comments
+- using print
+- expressions and statements
+- variables
+- blocks and scopes
+- operators - arithmetic, bitwise, comparison, boolean, operator precedence
+- std library numeric functions
 
+3) conditional strcutures
+- decision making statement
+- loops - while, for
+- additional controls
+
+4) strings
+- overview of string objects
+- common string methods
+- formatting strings
+- splitting and joining
+- string functions
+- regular expressions
+
+5) python functions
+- defining a function
+- function arguments
+- arguments lists
+- keyword arguments
+- return values
+- generators
+- decorators
+
+7) structured data - I
+- basic data structures
+- lists and tuples
+- dictionaries
+
+8) structured data - II
+- sets
+- list comprehension
+- mixed structures
+
+9) working with files
+- reading and writing files
+- working with OS path utilities
+- using file system shell methods
+- text vs binary mode
+- text files and binary files
+
+10) exceptions
+- handling exceptions
+- reporting errors
+
+11) working with dates and times
+- date, time and datetime classes
+- formatting time output
+- using timedelta objects
+- working with calendars
+- timer implementation 
+
+12) classes & object
+- creating a class
+- constructing an object
+- class methods
+- object data
+- inheritence
+- iterator objects
+
+21) modules
+- using standard modules
+- creating a module
+
+22) databases
+- python database API
+- a database interface
+- example : short URL database
+
+20) working with web data
+- fetching internet data
+- working with JSON data
+- parsing and processing HTML
+- manipulating XML
