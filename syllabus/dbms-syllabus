@@ -48,11 +48,12 @@ Concepts, Retrieval Models, Queries in IR systems.
 =======================
 
 
- To understand data definitions and data manipulation commands
- To learn the use of nested and join queries
- To understand functions, procedures and procedural extensions of data bases
- To be familiar with the use of a front end tool
- To understand design and implementation of typical database applications
+ To understand data definitions and data manipulation commands
+ To learn the use of nested and join queries
+ To understand functions, procedures and procedural extensions of data bases
+ To be familiar with the use of a front end tool
+ To understand design and implementation of typical database applications
+
 1. Data Definition Commands, Data Manipulation Commands for inserting, deleting,
 updating and
 retrieving Tables and Transaction Control statements

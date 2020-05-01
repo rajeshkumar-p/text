@@ -57,9 +57,8 @@ https://www.geeksforgeeks.org/difference-pointer-array-c/
 21) memory management I
     malloc, calloc, realloc, free
 
-
 22) memory management II
-    * memory leak and how tto address it    
+    * memory leak and how to address it    
 
 23) macros and preprocessors I
 

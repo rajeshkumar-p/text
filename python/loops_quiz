@@ -1,0 +1,106 @@
+    1) What is the output of the following program?
+    x = ['ab', 'cd'] 
+    for i in x: 
+        i.upper() 
+    print(x) 
+
+    Output:
+    ['ab', 'cd']
+
+    Explanation:
+    The function upper() does not modify a string in place, but it returns a new
+string which here isn’t being stored anywhere. So we will get our original list
+as output.
+
+    2) What is the output of the following program?
+    x = ['ab', 'cd'] 
+    for i in x: 
+        x.append(i.upper()) 
+    print(x) 
+
+    Output:
+    No Output
+
+    Explanation:
+    The loop does not terminate as new elements are being added to the list in
+each iteration. So our program will stuck in infinite loop
+
+    3) What is the output of the following program?
+    i = 1
+    while True: 
+        if i%3 == 0: 
+            break
+        print(i) 
+        i + = 1
+
+    Output:
+
+    No Output
+
+    Explanation:
+    The program will give no output as there is an error in the code. In python
+while using expression there shouldn’t be a space between + and = in +=.
+
+    4) What is the output of the following program?
+    x = 123
+    for i in x: 
+        print(i) 
+
+    Output:
+    Error!
+
+    Explanation:
+    Objects of type int are not iterable instead a list, dictionary or a tuple
+should be used.
+
+    5) What is the output of the following program?
+    for i in [1, 2, 3, 4][::-1]: 
+        print (i) 
+
+    Output:
+    4
+    3
+    2
+    1
+
+    Explanation:
+    Adding [::-1] beside your list reverses the list. So output will be the
+elements of original list but in reverse order.
+
+
+5. What is the output of the following?
+i = 1
+while True: 
+    if i % 3 == 0: 
+        break
+    print(i) 
+    i + = 1
+
+    1 2 3.
+    1 2.
+    Syntax Error.
+    None of these
+
+Output:
+3. Syntax Error
+Explanation: SyntaxError, there shouldn’t be a space between + and = in +=.
+
+Program 2:
+for i in  range(2): 
+    print i 
+  
+for i in range(4,6): 
+    print i 
+
+Output:
+0
+1
+4
+5
+
+Explanation: If only single argument is passed to the range method, Python
+considers this argument as the end of the range and the default start value of
+range is 0. So, it will print all the numbers starting from 0 and before the
+supplied argument.
+For the second for loop the starting value is explicitly supplied as 4 and
+ending is 5.

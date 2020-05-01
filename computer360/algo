@@ -11,7 +11,10 @@ divide and conquer algorithm I  - binary search
 
 sorting - bubble sort, selection sort and insertion sort
 
-divide and conquer algorithm II - merge sort
+divide and conquer algorithm II 
+- external sort
+https://www.geeksforgeeks.org/external-sorting/?ref=lbp
+- merge sort
 
 divide and conquer algorithm II - quick sort
 

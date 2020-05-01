@@ -37,35 +37,35 @@
 - generators
 - decorators
 
-7) structured data - I
+6) structured data - I
 - basic data structures
 - lists and tuples
 - dictionaries
 
-8) structured data - II
+7) structured data - II
 - sets
 - list comprehension
 - mixed structures
 
-9) working with files
+8) working with files
 - reading and writing files
 - working with OS path utilities
 - using file system shell methods
 - text vs binary mode
 - text files and binary files
 
-10) exceptions
+9) exceptions
 - handling exceptions
 - reporting errors
 
-11) working with dates and times
+10) working with dates and times
 - date, time and datetime classes
 - formatting time output
 - using timedelta objects
 - working with calendars
 - timer implementation 
 
-12) classes & object
+11) classes & object
 - creating a class
 - constructing an object
 - class methods
@@ -73,16 +73,16 @@
 - inheritence
 - iterator objects
 
-21) modules
+12) modules
 - using standard modules
 - creating a module
 
-22) databases
+13) databases
 - python database API
 - a database interface
 - example : short URL database
 
-20) working with web data
+14) working with web data
 - fetching internet data
 - working with JSON data
 - parsing and processing HTML

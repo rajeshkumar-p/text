@@ -54,6 +54,7 @@ segmentation
 
 virtual memory
 
+
 demand paging
 
 copy on write
@@ -65,6 +66,16 @@ allocation of frames
 thrashing
 
 process
+
+threads
+- sequential vs parallel computing
+- parallel computing architecture
+- shared vs distributed memory
+- threads vs process
+- concurrent vs parallel execution
+
+
+Ref : Parallel and Concurrent Programming with Python I
 
 process synchronization
 https://www.geeksforgeeks.org/process-synchronization-set-1/
