@@ -14,9 +14,14 @@ general computer science
 
 4) endianess - little endian vs big endian
 
-3) decimal to binary and binary to decimal
+5) number conversions 
+   binary to decimal conversion
+   decimal to binary conversion
+   decimal to hexadecimal conversion
+   hexadecimal to binary conversion
 
-5) 1's complement and 2's complement
+
+6) 1's complement and 2's complement
 https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/
 https://www.geeksforgeeks.org/how-the-negative-numbers-are-stored-in-memory/
 https://www.geeksforgeeks.org/subtraction-of-two-numbers-using-2s-complement/

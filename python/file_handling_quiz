@@ -1,0 +1,23 @@
+1) Which of the following statements are true?
+a) When you open a file for reading, if the file does not exist, an error occurs
+b) When you open a file for writing, if the file does not exist, a new file is created
+c) When you open a file for writing, if the file exists, the existing file is overwritten with the new file
+d) All of the mentioned
+
+Answer: d
+
+8. To read the next line of the file from a file object infile, we use ____________
+a) infile.read(2)
+b) infile.read()
+c) infile.readline()
+d) infile.readlines()
+View Answer
+Answer: c
+
+9. To read the remaining lines of the file from a file object infile, we use ____________
+a) infile.read(2)
+b) infile.read()
+c) infile.readline()
+d) infile.readlines()
+View Answer
+Answer: d
