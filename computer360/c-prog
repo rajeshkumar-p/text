@@ -1,6 +1,39 @@
 1) c programming language
+- getting into c language
+- working the c development cycle
+- obtaining and configuring ID
+- simple "Hello World Program"
+- code compilation and program execution procedure
+- exploring preprocessor
+- understanding hearder files and libraries
 
-2) data types revisit
+2) variables and operators
+- understanding c language data types
+- using constants
+- declaring variables 
+- working with variables
+- understanding variable scope
+- making new variables
+- using typedef with structures
+- specifying characters and strings
+- specifying integers and real numbers
+- typecasting variable
+- working with math operators
+- using assignment operator
+- obeying the order of precedence
+- working with relational operator
+- using logical operators
+- understanding bitwise operators
+- shifting bits
+- exploring unary operators
+- using the ternary operator
+- working with switch-case structure
+- creating a for loop
+- setting up a while loop
+- nesting loop
+- breaking out of a loop
+- avoiding to the goto keyword 
+ 
 https://www.geeksforgeeks.org/data-types-in-c/
 https://www.geeksforgeeks.org/bool-in-c/
 
@@ -15,6 +48,13 @@ https://www.geeksforgeeks.org/bool-in-c/
 7) control statements - II
 
 8) functions I
+- undertstanding functions
+- prototyping a function
+- returning a value from function
+- passing arguments to a function
+- retaining values in a function
+- creating recursive function
+
 https://www.geeksforgeeks.org/functions-in-c/
 
 9) storage class
@@ -65,14 +105,6 @@ https://www.geeksforgeeks.org/difference-pointer-array-c/
 24) macros and preprocessors I
 
 25) bitwise operators in c
-
-26) review I
-
-27) review II
-
-28) review III
-
-29) review IV
 
 Interview questions :
 https://www.geeksforgeeks.org/commonly-asked-c-programming-interview-questions-set-1/
